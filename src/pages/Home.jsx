@@ -27,8 +27,7 @@ const Home = () => {
                 </h1>
                 <p>
                 Welcome to TourMaster, your ultimate travel companion for seamless 
-                and unforgettable adventures. Effortlessly plan, book, 
-                and manage your tours with personalized recommendations and curated experiences. 
+                and unforgettable adventures. Effortlessly plan, book, and manage your tours with personalized recommendations and curated experiences. 
                 Your journey to amazing memories starts here!
                 </p>
               </div>
