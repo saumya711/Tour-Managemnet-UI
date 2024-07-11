@@ -8,9 +8,13 @@ const SearchBar = () => {
   const maxGroupSizeRef = useRef();
 
   const searchHandler = () => {
-    const location = locationRef.current.value
-    const distance = distancenRef.current.value
-    const maxGroupSize = maxGroupSizeRef.current.value
+    const location = locationRef.current.value;
+    const distance = distancenRef.current.value;
+    const maxGroupSize = maxGroupSizeRef.current.value;
+
+    if(location === '' || distance === '' || maxGroupSize === ''){
+      return alert('All Fields are required!')
+    }
   }
   return (
     <Col lg='12'> 
